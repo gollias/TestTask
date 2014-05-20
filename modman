@@ -1,0 +1,3 @@
+# Test Task definition
+app/etc/modules/*.xml                   app/etc/modules/
+app/code/local/Test/Task/*              app/code/local/Test/Task/
