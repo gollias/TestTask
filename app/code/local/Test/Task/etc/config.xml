@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Test_Task>
+            <version>0.1.0</version>
+        </Test_Task>
+    </modules>
+
+    <global>
+        <models>
+            <test_task>
+                <class>Test_Task_Model</class>
+            </test_task>
+        </models>
+        <resources>
+            <test_task_setup>
+                <setup>
+                    <module>Test_Task</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </test_task_setup>
+        </resources>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <test_task module="Test_Task">
+                    <file>testtask.xml</file>
+                </test_task>
+            </updates>
+        </layout>
+    </frontend>
+
+</config>
