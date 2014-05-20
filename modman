@@ -1,3 +1,5 @@
 # Test Task definition
-app/etc/modules/*.xml                   app/etc/modules/
-app/code/local/Test/Task/*              app/code/local/Test/Task/
+app/etc/modules/*.xml                                 app/etc/modules/
+app/code/local/Test/Task/*                            app/code/local/Test/Task/
+app/design/frontend/base/default/layout/testtask.xml  app/design/frontend/base/default/layout/testtask.xml
+app/design/frontend/base/default/template/testtask/*  app/design/frontend/base/default/template/testtask
