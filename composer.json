@@ -9,6 +9,12 @@
         "magento-hackathon/magento-composer-installer": "*",
         "phpunit/phpunit": "4.1.*"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
     "authors":[
         {
             "name": "Yuri Palchikovsky"
